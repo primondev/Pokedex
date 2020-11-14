@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MigrationsRunner", "Migrati
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{EC64CCAC-0E9D-40F3-A1C5-3A3A1C84D83A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{6B0110C8-5FF6-40DC-BD8B-C0EFC575EA02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{DCDFB3A8-F4B0-4AA7-AF45-A3036725767D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,10 @@ Global
 		{4360ED37-30E5-43E7-9DF5-B575CDD11EB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4360ED37-30E5-43E7-9DF5-B575CDD11EB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4360ED37-30E5-43E7-9DF5-B575CDD11EB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCDFB3A8-F4B0-4AA7-AF45-A3036725767D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCDFB3A8-F4B0-4AA7-AF45-A3036725767D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCDFB3A8-F4B0-4AA7-AF45-A3036725767D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCDFB3A8-F4B0-4AA7-AF45-A3036725767D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{7C0D6663-B6BA-4A5C-8C91-64E066922FA3} = {EC64CCAC-0E9D-40F3-A1C5-3A3A1C84D83A}
 		{4360ED37-30E5-43E7-9DF5-B575CDD11EB7} = {EC64CCAC-0E9D-40F3-A1C5-3A3A1C84D83A}
+		{DCDFB3A8-F4B0-4AA7-AF45-A3036725767D} = {6B0110C8-5FF6-40DC-BD8B-C0EFC575EA02}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {64444288-F3A2-408E-AEA2-3D6792B2AF2A}
